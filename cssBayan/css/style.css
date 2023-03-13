@@ -9,8 +9,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* min-height: 100vh; */
     min-width: 320px;
     margin: 0;
     padding: 0;
@@ -27,24 +25,16 @@ body {
     margin: 0 auto;
 }
 
-.section {
-    /* width: 600px;
-    justify-content: center; */
-}
-
 .section-title {
     color: black;
-    /* font-size: 20px;
-    font-weight: 300; */
 }
 
 .section-item {
     transition: color 0.5s;
     min-height: 50px;
-    /* padding: 20 0 0 0; */
-    /* border-top: 1px solid #672f2f; */
 }
 
 .section-item:hover {
     color: black;
+    cursor: pointer;
 }
